@@ -3,7 +3,7 @@
 Минимальная авторизация на JWT <br>
 База данных sqlite <br>
 json файл с Postman в корне проекта "friend_list.json" <br>
-Параметры Postman "Variables" {{URL}} {{TOKEN}}
+Параметры Postman "Variables" {{URL}} {{TOKEN}} <br>
 Перед тем как начать настройте файл .env (DB_DATABASE)
 
 API
