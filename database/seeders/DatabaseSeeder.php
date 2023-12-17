@@ -14,8 +14,8 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        $this->call([
-            UsersTableSeeder::class,
-        ]);
+//        \Illuminate\Database\Eloquent\Factories\Factory::factoryForModel(\App\Models\User::class)->count(1000)->create();
+        \Illuminate\Database\Eloquent\Factories\Factory::factoryForModel(\App\Models\Friend::class)->count(6000)->create();
     }
+
 }
